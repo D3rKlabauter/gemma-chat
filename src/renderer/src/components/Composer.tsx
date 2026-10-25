@@ -162,7 +162,7 @@ export default function Composer({
             }
             rows={1}
             disabled={disabled || recState !== 'idle'}
-            className="min-h-[28px] flex-1 resize-none bg-transparent px-2 py-1.5 text-[14.5px] leading-relaxed text-white placeholder:text-ink-400 focus:outline-none disabled:opacity-50"
+            className="min-h-[28px] flex-1 resize-none bg-transparent px-2 py-1.5 text-[14.5px] leading-relaxed text-white placeholder:text-ink-400 focus:outline-hidden disabled:opacity-50"
           />
           {streaming ? (
             <button
